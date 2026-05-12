@@ -60,6 +60,7 @@ _supplyBox allowDamage false;
 
 waitUntil {getpos _supplyBox select 2<4};
 _smoker = "SmokeShellBlue" createVehicle (getpos _supplyBox vectorAdd [0,0,5]);
+_kikoFlare = "F_40mm_Green" createVehicle (getpos _supplyBox vectorAdd [0,0,5]);
 detach _supplyBox;
 
 sleep 20;
