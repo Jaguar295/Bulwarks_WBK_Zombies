@@ -109,7 +109,11 @@ List_Secondaries = [
     "hgun_Pistol_heavy_01_F",    // 4-five       → 11Rnd_45ACP_Mag
     "hgun_ACPC2_F",              // ACP-C2       → 9Rnd_45ACP_Mag
     "hgun_P07_F",                // P07          → 16Rnd_9x21_Mag
-    "hgun_Pistol_heavy_02_F"     // Zubr .45     → 6Rnd_45ACP_Cylinder
+    "hgun_Pistol_heavy_02_F",     // Zubr .45     → 6Rnd_45ACP_Cylinder
+    "Bat_Spike",                // Spiked Bat - Melee
+    "WBK_survival_weapon_2",    // Sledgehammer - Melee
+    "Knife_m3",                 // Knife - Melee
+    "WBK_Katana"                // Katana - Melee
 ];
 
 // --- Launchers (CfgWeapons, type 4) ---
@@ -138,11 +142,9 @@ List_Optics = [
 List_Items = [
     "FirstAidKit",
     "Medikit",
-    "ItemGPS",
-    "ItemCompass",
-    "ItemMap",
-    "ItemWatch",
-    "ItemRadio"
+    "Integrated_NVG_F",
+    "ACE_Clacker",
+    "ACE_DeadManSwitch"
 ];
 
 // --- Glasses (CfgGlasses) ---
@@ -156,7 +158,9 @@ List_Glasses = [
 // --- Grenades (CfgMagazines — thrown explosives) ---
 List_Grenades = [
     "HandGrenade",
-    "MiniGrenade"
+    "MiniGrenade",
+    "ACE_HandFlare_White",
+    "GrenadeMolotovPSRUS"    // Molotov from Burn 'Em Redux
 ];
 
 // --- Mines (CfgMagazines — not used, kept empty for pool compatibility) ---
