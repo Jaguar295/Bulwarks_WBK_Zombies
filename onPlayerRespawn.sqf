@@ -82,6 +82,9 @@ if(PLAYER_STARTNVG) then {
     player linkItem "Integrated_NVG_F";
 };
 
+//ALL OF KIKO'S ADDITIONS AAAAAAAA
+player addItem "WBK_HeadLampItem";
+
 player addItem "ItemCompass";
 player assignItem "ItemCompass";
 player linkItem "ItemCompass";
