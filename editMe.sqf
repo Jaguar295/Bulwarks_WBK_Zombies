@@ -87,12 +87,15 @@ BULWARK_SUPPORTITEMS = [
     [800,  "Recon UAV",             "reconUAV"],
     [1680, "Emergency Teleport",   "telePlode"],
     [1950, "Paratroopers",          "paraDrop"],
+    [2500, "Portable Minigun",       "minigun"],    // Added by Kiko
     [3850, "Missile CAS",          "airStrike"],
     [4220, "Mine Cluster Shell",   "mineField"],
     [4690, "Rage Stimpack",         "ragePack"],
     [5930, "Mind Control Gas",    "mindConGas"],
     [6666, "ARMAKART TM",           "armaKart"],
-    [7500, "Predator Drone",    "droneControl"]
+    [7500, "Predator Drone",    "droneControl"],
+    [7500, "AH-6 Pilot",          "littleBird"],    // Added by Kiko 
+    [10000, "Flamethrower",     "flamethrower"]     // Added by Kiko
 ];
 
 /* Objects the Player can buy */
