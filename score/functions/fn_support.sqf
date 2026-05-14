@@ -40,4 +40,14 @@ switch (_type) do {
     case ("telePlode"): {
     [_player] call supports_fnc_telePlode;
     };
+    case ("flamethrower"): {
+    [_player] call supports_fnc_flamethrower;
+    };
+    case ("minigun"): {
+    [_player] call supports_fnc_minigun;
+    };
+    case ("littleBird"): {
+    [_player] call supports_fnc_littleBird;
+    };
+};
 };
