@@ -13,5 +13,8 @@ class supports
         class droneControl {};
         class mineField {};
         class telePlode{};
+        class flamethrower{};
+        class minigun{};
+        class littleBird{};
     };
 };
