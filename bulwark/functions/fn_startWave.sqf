@@ -101,7 +101,7 @@ if (specialWave && attkWave >= 5 and attkWave < 10) then {
 };
 
 if (specialWave && attkWave >= 10) then {
-	_randWave = floor random 6;
+	_randWave = floor random 5;
 	switch (_randWave) do
 	{
 		case 0:
@@ -120,11 +120,11 @@ if (specialWave && attkWave >= 10) then {
 		{
 			SpecialWaveType = "nightWave";
 		};
+//		case 4:
+//		{
+//			SpecialWaveType = "demineWave";
+//		};
 		case 4:
-		{
-			SpecialWaveType = "demineWave";
-		};
-		case 5:
 		{
 			SpecialWaveType = "siegeWave";
 		};
