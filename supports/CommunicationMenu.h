@@ -96,3 +96,36 @@ class telePlode
     enable = "1";
     removeAfterExpressionCall = 1;
 };
+
+class flamethrower
+{
+    text = "Flamethrower Kit";
+    submenu = "";
+    expression = "[_this select 0, _this select 1,'flamethrower'] remoteExec ['killPoints_fnc_support', 2];";
+    icon = "\a3\Ui_f\data\GUI\Cfg\CommunicationMenu\attack_ca.paa";
+    cursor = "\a3\Ui_f\data\IGUI\Cfg\Cursors\iconCursorSupport_ca.paa";
+    enable = "1";
+    removeAfterExpressionCall = 1;
+};
+
+class minigun
+{
+    text = "Minigun Kit";
+    submenu = "";
+    expression = "[_this select 0, _this select 1,'minigun'] remoteExec ['killPoints_fnc_support', 2];";
+    icon = "\a3\Ui_f\data\GUI\Cfg\CommunicationMenu\attack_ca.paa";
+    cursor = "\a3\Ui_f\data\IGUI\Cfg\Cursors\iconCursorSupport_ca.paa";
+    enable = "1";
+    removeAfterExpressionCall = 1;
+};
+
+class littleBird
+{
+    text = "AH-6 Pilot";
+    submenu = "";
+    expression = "[_this select 0, _this select 1,'littleBird'] remoteExec ['killPoints_fnc_support', 2];";
+    icon = "\a3\Ui_f\data\GUI\Cfg\CommunicationMenu\cas_ca.paa";
+    cursor = "\a3\Ui_f\data\IGUI\Cfg\Cursors\iconCursorSupport_ca.paa";
+    enable = "1";
+    removeAfterExpressionCall = 1;
+};
